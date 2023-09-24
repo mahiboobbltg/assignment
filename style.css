@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    /* background-color: black; */
+    background-image: url('https://www.solidbackgrounds.com/images/website/560x315/560x315-bark-with-moss-free-website-background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 630px;
+    position: relative;
+}
+
+
+/* list items start */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    height: 90px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+li {
+    float: right;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(20, 14, 188, 0.693);
+    text-transform: capitalize;
+    border: 2px solid black;
+    /* box-shadow: 100px; */
+}
+
+/* list items end */
+
+/* icons start */
+
+.icon-items {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-text {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    color: rgb(244, 245, 246);
+}
+
+.home-text>p {
+    font-size: 70px;
+    font-style: oblique;
+}
+
+.home-text>div>p::first-line {
+    text-transform: uppercase;
+
+}
+
+/* service-section start */
+
+.service-section {
+    height: 500px;
+    background-color: beige;
+}
+
+.service-head {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.service-head h1 {
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+}
+
+.service-body {
+    display:flex;
+    align-content: center;
+    justify-content:center;
+    height: 300px;
+}
+
+.service-body > div {
+    width: 280px;
+    height: 200px;
+    border: 2px solid rgb(5, 5, 5);
+   border-radius: 10px;
+   margin: 2px;
+   text-align: center;
+    box-shadow: 5px  5px ;
+}
+.s1 i{
+    margin-top: 10px;
+}
+.s1 p{
+    margin-top: 20px;
+}
+.s1 h1{
+    margin-top: 35px;
+}
+
+
+/* about section start */
+.about-section {
+height: 500px;
+background-color: bisque;
+}
+
+/* contact section start */
+.contact-section {
+height: 500px;
+background-color: rgb(179, 140, 93);
+}
+
+/* footer section start */
+.footer-section {
+height: 200px;
+background-color: rgb(42, 40, 39);
+}
