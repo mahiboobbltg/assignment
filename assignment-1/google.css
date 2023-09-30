@@ -1,0 +1,124 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    display: inline-block;
+    /* position: fixed; */
+    /* margin-top: 10px; */
+    padding: 5px;
+}
+
+li:hover {
+    width: auto;
+    height: auto;
+    background-color: rgb(226, 230, 230, 0.3);
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    position: fixed; 
+    right: 30px;
+    /* text-align: center; */
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.logo{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 280px;
+    margin:70px 0 0 550px;
+    height: 182px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url('g-logo.png');
+}
+
+/* search bar start */
+
+.searchbox {
+    margin-top: 5px;
+    background-color: white;
+}
+
+
+.input-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1.5px solid;
+    border-radius: 25px;
+    width: 550px;
+    margin: auto;
+    height: 40px;
+}
+
+.input-feild {
+    border: none;
+    border-color: white;
+    width: 400px;
+    height: 40px;
+    font-size:1rem;
+}
+.input-feild:active{
+    border-color: white;
+}
+/* .icon:hover{
+
+} */
+
+/* search bar end */
+
+.card-main{
+    left: 482px;
+    position: relative;
+    width: 428px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.cards {
+    left: 20px;
+    top:30px ;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;    
+}
+
+.b1,
+.b2,
+.b3
+ {
+    margin-top: 20px;
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+
+ }
+.b1:hover,.b2:hover,.b3:hover{
+
+    background-color: rgba(11, 12, 12,0.1);
+}
