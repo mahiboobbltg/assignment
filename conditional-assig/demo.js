@@ -24,6 +24,7 @@ else
     console.log('fail')
 }
 
+
 // Get user input using prompt(“Enter your age:”). 
 // if the user is 18 years or older than 18 years allow him to vote,
 //  else infrom him how many more years he needs to become a voter.
